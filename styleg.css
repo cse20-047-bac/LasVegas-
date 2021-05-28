@@ -1,0 +1,62 @@
+<style>
+
+.header {
+  padding: 120px;
+  text-align: center;
+  background-image: url(150615_summerlin_03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #4114e3;
+  height: 55px;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.navbar a:hover {
+  background-color:  #21c9eb;
+}
+
+a.active,a:hover{
+background: #21c9eb;
+transition: 1s;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.socials a:hover{
+  background-color: #21c9eb;
+  padding: 12px 12px;
+  border-radius: 35px;
+}
+
+.socials a{
+  background-color: ;
+  padding: 12px 12px;
+}
+
+</style>

@@ -1,0 +1,109 @@
+<style>
+
+body {
+  background-color: #b3d5f5;
+}
+
+
+.header {
+  padding: 120px;
+  text-align: center;
+  background-image: url(40-free-things-to-do-inspirada-blog-min_edited.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:  #4114e3;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.navbar a:hover {
+  background-color: #21c9eb;
+  color: black;
+}
+
+a.active,a:hover{
+background: #21c9eb;
+transition: 1s;
+}
+
+.search-form{
+   margin-top: 15px;
+   float: right;
+}
+
+input[type=text]{
+   padding: 5px;
+   font-family: san-serif;
+}
+
+button{
+   float: right;
+   background-color: blue;
+   color: white;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   padding: 5px;
+   font-family: san-serif;
+}
+
+button:hover{
+  background-color: #21c9eb;
+  border-radius: 5px;
+}
+
+aside {   
+     width: 40%;
+	 float: right;
+	 clear: right;
+     padding-top: 10px;
+}
+
+article {
+
+     padding-top: 25px;   
+     width: 55%;
+     height: 40;
+	 clear: left;
+	 float: left;
+}	 
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+  margin-top: px;
+  clear: both;
+}
+
+.socials a:hover{
+  background-color: #21c9eb;
+  padding: 12px 12px;
+  border-radius: 35px;
+}
+
+.socials a{
+  background-color: ;
+  padding: 12px 12px;
+}
+
+</style>
